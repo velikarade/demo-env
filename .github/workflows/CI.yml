@@ -2,6 +2,10 @@ name: CI
 
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        type: environment
+        required: true
   
 jobs:
   # This workflow contains a single job called "build"

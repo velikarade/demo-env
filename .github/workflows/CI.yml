@@ -5,6 +5,7 @@ name: CI
 
 on:
   push:
+  workflow_dispatch:
   
 jobs:
   # This workflow contains a single job called "build"
